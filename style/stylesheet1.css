@@ -1,0 +1,144 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+background: linear-gradient( hsl(226, 31%, 89%), #d2bfbf, #4e65c1);
+  min-height: 100vh;
+  min-width: 190vh;
+   padding: 20px;
+     display: flex;
+     
+     align-items: center;
+  justify-content: center;
+  font-family:Arial, Helvetica, sans-serif;
+
+}
+a{
+  text-decoration: none;
+  color: black; 
+  
+}
+.loginbody{
+ width: 70%;
+ height:80%;
+border-radius: 30px;
+background-color: #1a2a6c2a;
+ 
+}
+
+header{
+background-color: azure;
+height: 20%;
+display: flex;
+align-items: center;
+justify-content:space-between;
+padding: 10px 8%;
+border-radius: 30px 30px 0 0;
+}
+.logo{
+  font-size: 20px;
+  font-weight: bold;
+  word-spacing: 30px;
+}
+.logo span{
+  color: rgb(42, 88, 141);
+}
+.sign-up-div{
+  font-size: 12px;
+}
+.sign-up-button{
+  font-size: inherit;
+ background-color: rgb(59, 58, 58); 
+ color: azure;
+ margin-left: 10px;
+ border: none;
+ border-radius: 4px;
+ padding: 5px 21px;
+ cursor: pointer;
+}
+main{
+  display: flex;
+ 
+  padding: 70px;
+}
+.login-section{
+  display: flex;
+  flex-direction: column;
+  margin-right: 80px;
+
+}
+h1{
+  text-align: center;
+  margin-bottom: 30px;
+}
+input{
+  width: 350px;
+  height: 35px;
+  border: none;
+  border-radius: 5px;
+  margin: 8px;
+  padding: 15px;
+}
+.hh:hover{
+  background-color: rgba(114, 166, 225, 0.081);
+}
+
+label{
+  font-size: 12px;
+  font-weight:600;
+}
+.dot{
+  color: red;
+}
+.form-button{
+ background-color: rgb(59, 58, 58);
+ color: azure;
+ border: none;
+ padding: 10px;
+ cursor: pointer;
+}
+.form-button:hover{
+  background-color: rgba(59, 58, 58, 0.512);
+  color:rgb(34, 33, 33); 
+}
+section a{
+  text-align: center;
+   font-size: 12px;
+}
+footer {
+   margin-top: 40px;
+}
+footer p{
+  font-size: 15px;
+  display: inline;
+}
+.link-icon{
+  display: inline; 
+  margin-left: 5px;
+}
+.link-icon a{
+margin-left: 10px;
+font-size: 17px;
+}
+hr{
+  width: 180px;
+}
+.or-div{
+  display: flex; 
+  align-items: center;
+  margin-top: 20px;
+   justify-content: space-between;
+}
+.or{
+  font-size: 12px;
+
+}
+.link-icon a:hover{
+  color:  rgb(42, 88, 141);;
+}
+
+.im1{
+  width: 350px;
+}
